@@ -1,0 +1,110 @@
+h1{
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 9% 20% 2% 20%;
+}
+.h34{
+  padding: 0 20%;
+  padding-bottom: 10px;
+  font-weight: normal;
+  font-size: 1rem;;
+}
+
+#title{
+  background-image: url("images/front-img.jpg");
+  color: white;
+  padding-bottom: 10%;
+}
+.navbar{
+  padding-top: 20px;
+}
+.navbar-brand{
+  color: #e50914;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+.navbar-brand:hover{
+  color: #e50914;
+}
+.icons{
+  padding-right: 2px;
+}
+.language-button{
+  margin: 20px;
+  border-color: #fff;
+  color: #fff;
+  padding: 3px 6px;
+  border-radius: 2px;
+}
+.language-button:hover{
+  background-color: black;
+}
+.signin-button{
+  margin: 20px ;
+  background-color:#e50914;
+  border-color: #e50914;
+  padding: 3px 12px;
+  border-radius: 2px;
+}
+.signin-button:hover{
+  background-color:#e50914 ;
+  border-color: #e50914;
+}
+.form-control{
+  height: 50px;
+  width: 450px;
+  margin: auto;
+  margin-right: 0;
+  border: none;
+  border-radius: 0px;
+}
+.get-btn{
+  width: 150px;
+  height: 50px;
+  background-color:#e50914 ;
+  color: #fff;
+  border: none;
+  border-radius: 0px;
+}
+.get-btn:hover{
+  background-color: #f40612;
+}
+
+/* ----------------middle section------------------- */
+#middle-section{
+  background-color: black;
+  color: #fff;
+}
+.middle-img{
+  width: 450px;
+  height: 350px;
+}
+hr{
+  padding-top: 7px;
+  color:gray;
+  background-color:gray
+}
+.col-lg-6{
+  padding: 5%;
+}
+.middle-heading{
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-control{
+    margin-left: 10%;
+  }
+  .get-btn{
+    margin-left:40%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .form-control{
+    margin-left: 28%;
+  }
+  .get-btn{
+    margin-left:43%;
+  }
+}
