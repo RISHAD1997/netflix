@@ -1,0 +1,222 @@
+body{
+    text-align: center;
+}
+
+/* -------------------------title section-------------------------------------- */
+#title{
+    width: 100%;
+    background-image: url("images/front-img.jpg");
+    color: #fff;    
+}
+
+.h1style{
+    font-size: 4rem;
+    font-weight: bold; 
+    padding-bottom: 2rem;
+    margin: 10rem 17rem 0 17rem;
+}
+
+.h2style{
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.h3style{
+    font-size: 1rem; 
+    font-weight: normal;
+}
+
+/* .heading{
+    margin: 10rem 17rem 0 17rem;
+} */
+
+.navitem{
+    margin-right: 60px;
+}
+
+.navbar{
+    width: 100%;
+    height: 60px; 
+    padding-top: 15px;
+}
+
+.nabar-brand{
+    text-decoration: none;
+    font-size: 3rem;
+    color: #e50914;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.nabar-brand:hover{
+    cursor: pointer;
+    color: red;
+}
+
+.netflix-logo{
+    margin-bottom: 14px;
+    margin-left: 40px;
+    width: 170px;
+    height: 55px;
+}
+
+.btn-outline-secondary{
+    margin-right: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+.btn-outline-secondary:hover{
+    background-color: transparent;
+}
+
+.btn-danger{
+    background-color: #e50914;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+
+.textbox{
+    width: 31rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 0px;
+    
+} 
+.getin{
+    color: #fff;
+    position: relative;
+    right: 4px;
+    background-color: #e50914;
+    font-size: 1rem;
+    border: none;  
+    border-radius: 0px;
+    height: 3.55rem;
+    padding-right: 3.5rem;
+    padding-left: 3.5rem;
+}
+ .getin:hover{
+    background-color: #f40612;
+}
+.sample{
+    padding-bottom: 1rem;
+}
+
+/* --------------------------------------------------middle section----------------------------------------------- */
+
+
+ @media screen and (max-width: 600px) {
+
+    .netflix-logo{
+        margin-bottom: 28px;
+        margin-left: 20px;
+        width: 95px;
+        height: 37px;
+    }
+    .btn-outline-secondary{
+        padding: 3px;
+        font-size: 0.7rem;
+        margin-right: 15px;
+        margin-top: 7px;
+    }
+    .btn-danger{
+        padding: 3px 15px ;
+        font-size: 0.9rem;
+        margin-right: 20px;
+        margin-top: 7px;
+        margin-bottom: 25px;
+    }
+    .dropdown-item{
+        font-size: 0.8rem;
+        color: #fff;
+    }
+    .dropdown-menu{
+        min-width: 70px;
+        background-color: grey;
+    }
+    ul.dropdown-menu.show{
+        top: 50px;
+    }
+    .h1style{
+    
+        font-size: 1.75rem;
+        font-weight: bold; 
+        padding-bottom: 0.5rem;
+        margin: 5rem 1rem 0 1rem;
+        
+    }
+    .h2style{
+        font-size: 1.125rem;
+        padding-bottom: 0.5rem;
+    }
+    .h3style{
+        font-size: 1.125rem; 
+        font-weight: normal;
+        margin-bottom: 2rem;
+    }
+    .textbox{
+        width: 15rem;
+        height: 2.5rem;
+        border: none;
+        border-radius: 0px;
+        margin: 0 1rem 1rem 1rem;
+        
+    } 
+    .getin{
+        display: block;
+        margin: 0 auto;
+        font-size: 1rem; 
+        color: #fff; 
+        border: none; 
+        border-radius: 0px;
+        height: 2.5rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .sample{
+        padding-bottom: 1rem;
+    }
+    .row{
+        margin-right: 0;
+    }
+
+ }
+
+ @media screen and (max-width: 850px) {
+    .h1style{
+    
+        font-size: 2.5rem;
+        font-weight: bold; 
+        padding-bottom: 0.5rem;
+        margin: 5rem 2rem 0 2rem;
+      }
+      .textbox{
+        width: 350px;
+        height: 2.7rem;
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 1rem;
+      }
+
+      .getin{
+        display: block;
+        margin: 0 auto;
+        font-size: 1rem; 
+        color: #fff; 
+        border: none; 
+        border-radius: 0px;
+        height: 2.7rem;
+        padding-right: 2rem;
+        padding-left: 2rem;
+    }
+    .row{
+        margin-right: 0;
+    }
+
+ } 
+        
+    
+    
+    /* ------------------------------------middle section------------------------------- */
+        
+
